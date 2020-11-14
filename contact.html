@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>index.html</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <body>
+      <header>
+        <center>Created by Alexis Bennett<br /><b>Luv's Graphics</b></center>
+      </header>
+      <link rel="stylesheet" type="text/css" href="style3.css" />
+      <div class="navigation-bar">
+        <div id="navigation-container"></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <br /><br />
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height:200px"
+          ></textarea>
+          <a href="#" onclick="alert('You click Submit');">
+            <input type="submit" value="Submit" />
+          </a>
+        </form>
+      </div>
+      <p>
+        <i>
+          The contents of all pages published by students or individuals are
+          solely the responsibility of the page authors as part of a course
+          assignment. Statements made and opinions expressed as well as openly
+          sourced information to include images are strictly those of the
+          authors and not Clayton State University. Clayton State University
+          does not review, approve, or endorse the contents of personal pages
+          whether for personal or coursework. Nor does the University monitor
+          the content of any page except as necessary to investigate alleged
+          violations of University policies, federal, state, or local laws, or
+          the rights of other persons.
+        </i>
+      </p>
+      <footer>
+        <center>
+          abennett16@student.clayton.edu Updated: November 09, 2020
+        </center>
+      </footer>
+    </body>
+  </head>
+</html>
